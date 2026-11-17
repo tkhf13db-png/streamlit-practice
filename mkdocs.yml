@@ -1,0 +1,7 @@
+site_name: Play Card Game
+site_url: https://tkhf13db-png.github.io/streamlit-practice/
+theme:
+ name: mkdocs
+nav:
+ - Home:index.md
+repo_url: https://github.com/tkhf13-png/streamlit-practice
