@@ -4,4 +4,11 @@ theme:
  name: mkdocs
 nav:
  - Home:index.md
+ - About:about.md
+ - Play:play.md
+# repo_url: https://github.com/tkhf13-png/streamlit-practice
 repo_url: https://github.com/tkhf13-png/streamlit-practice
+extra:
+ version:
+  provider: mike
+
