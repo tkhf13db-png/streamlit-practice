@@ -1,0 +1,44 @@
+[
+  {
+    "id": "yokokoku-power-bowl",
+    "name": "横国パワー丼",
+    "category": "ごはん",
+    "price": 620,
+    "description": "ボリューム満点で、学食でも特に人気の高い丼メニューです。"
+  },
+  {
+    "id": "chicken-katsu-curry",
+    "name": "チキンカツカレー",
+    "category": "ごはん",
+    "price": 710,
+    "description": "カツの食感とカレーのスパイスがマッチした定番メニュー。"
+  },
+  {
+    "id": "spicy-miso-pork-bowl",
+    "name": "辛みそ豚丼",
+    "category": "ごはん",
+    "price": 680,
+    "description": "辛みそと豚肉の相性が良く、満足度が高い一品。"
+  },
+  {
+    "id": "shoyu-ramen",
+    "name": "醤油ラーメン",
+    "category": "麺",
+    "price": 520,
+    "description": "あっさりした醤油スープで、どの時間帯でも食べやすい。"
+  },
+  {
+    "id": "chicken-namban",
+    "name": "チキン南蛮",
+    "category": "定食",
+    "price": 750,
+    "description": "甘酢と揚げ物のバランスがよく、満足感のある定食。"
+  },
+  {
+    "id": "udon",
+    "name": "うどん",
+    "category": "麺",
+    "price": 450,
+    "description": "温かいうどんは、忙しい昼食にぴったりの定番メニュー。"
+  }
+]
