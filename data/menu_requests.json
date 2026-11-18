@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1cebd09a-d23f-40e7-9ec1-a6d260d8634b",
+    "name": "ハンバーグ",
+    "category": "定食",
+    "price": 350,
+    "description": "紹介文はまだありません。",
+    "status": "approved"
+  },
+  {
+    "id": "1329694f-4786-4bd7-89b3-e0b5681fe805",
+    "name": "ソフトクリーム",
+    "category": "デザート",
+    "price": 100,
+    "description": "紹介文はまだありません。",
+    "status": "pending"
+  }
+]

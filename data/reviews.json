@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "f052e5bc-68fd-4b28-b648-57c496a772c3",
+    "menu_id": "yokokoku-power-bowl",
+    "rating": 1,
+    "comment": "あまりおいしくないです",
+    "likes": 1
+  },
+  {
+    "id": "cfdbe3b9-71c5-417e-ad86-c4670baa3214",
+    "menu_id": "sapporo-miso-ramen",
+    "rating": 2,
+    "comment": "麺ののど越しが良くない",
+    "likes": 1
+  }
+]

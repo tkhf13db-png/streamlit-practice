@@ -2,28 +2,28 @@
   {
     "id": "yokokoku-power-bowl",
     "name": "横国パワー丼",
-    "category": "ごはん",
+    "category": "丼もの",
     "price": 620,
     "description": "ボリューム満点で、学食でも特に人気の高い丼メニューです。"
   },
   {
     "id": "chicken-katsu-curry",
     "name": "チキンカツカレー",
-    "category": "ごはん",
+    "category": "その他",
     "price": 710,
     "description": "カツの食感とカレーのスパイスがマッチした定番メニュー。"
   },
   {
     "id": "spicy-miso-pork-bowl",
     "name": "辛みそ豚丼",
-    "category": "ごはん",
+    "category": "丼もの",
     "price": 680,
     "description": "辛みそと豚肉の相性が良く、満足度が高い一品。"
   },
   {
     "id": "shoyu-ramen",
     "name": "醤油ラーメン",
-    "category": "麺",
+    "category": "麺類",
     "price": 520,
     "description": "あっさりした醤油スープで、どの時間帯でも食べやすい。"
   },
@@ -37,8 +37,92 @@
   {
     "id": "udon",
     "name": "うどん",
-    "category": "麺",
+    "category": "麺類",
     "price": 450,
     "description": "温かいうどんは、忙しい昼食にぴったりの定番メニュー。"
+  },
+  {
+    "id": "menu-cc6a9ed1-912d-40a3-8618-9c886245f621",
+    "name": "ハンバーグ",
+    "category": "定食",
+    "price": 350,
+    "description": "紹介文はまだありません。"
+  },
+  {
+    "id": "tonkotsu-shoyu-ramen",
+    "name": "豚骨醤油ラーメン",
+    "category": "麺類",
+    "price": 580,
+    "description": "豚骨のコクと醤油の香りを楽しめるラーメン。"
+  },
+  {
+    "id": "shio-ramen",
+    "name": "塩ラーメン",
+    "category": "麺類",
+    "price": 520,
+    "description": "すっきりした味わいの定番塩ラーメン。"
+  },
+  {
+    "id": "sapporo-miso-ramen",
+    "name": "札幌味噌ラーメン",
+    "category": "麺類",
+    "price": 620,
+    "description": "濃厚な味噌スープが特徴の札幌風ラーメン。"
+  },
+  {
+    "id": "mentai-kamatama-udon",
+    "name": "明太釜玉うどん",
+    "category": "麺類",
+    "price": 540,
+    "description": "明太子と卵のまろやかさを合わせた釜玉うどん。"
+  },
+  {
+    "id": "kake-udon",
+    "name": "かけうどん",
+    "category": "麺類",
+    "price": 400,
+    "description": "だしの風味を味わえるシンプルなうどん。"
+  },
+  {
+    "id": "kake-soba",
+    "name": "かけそば",
+    "category": "麺類",
+    "price": 400,
+    "description": "温かいだしで楽しむ定番のそば。"
+  },
+  {
+    "id": "sauce-shrimp-cutlet-bowl",
+    "name": "ソース海老かつ丼",
+    "category": "丼もの",
+    "price": 680,
+    "description": "海老かつとソースの組み合わせを楽しめる丼。"
+  },
+  {
+    "id": "two-salmon-bowl",
+    "name": "二種のサーモン丼",
+    "category": "丼もの",
+    "price": 780,
+    "description": "二種類のサーモンを味わえる丼メニュー。"
+  },
+  {
+    "id": "tori-zangi",
+    "name": "鳥ザンギ",
+    "category": "その他",
+    "price": 580,
+    "description": "ジューシーに揚げた北海道風の鶏料理。"
+  },
+  {
+    "id": "cheese-in-hamburger",
+    "name": "チーズインハンバーグ",
+    "category": "その他",
+    "price": 720,
+    "description": "中からチーズがとろけるハンバーグ。"
+  },
+  {
+    "id": "karaage-curry",
+    "name": "から揚げカレー",
+    "category": "その他",
+    "price": 680,
+    "description": "から揚げをトッピングしたボリューム満点のカレー。"
   }
 ]

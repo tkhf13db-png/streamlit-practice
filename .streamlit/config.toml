@@ -1,0 +1,42 @@
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#f8fbff"
+secondaryBackgroundColor = "#fff1f2"
+textColor = "#172554"
+borderColor = "#93c5fd"
+linkColor = "#1d4ed8"
+headingFont = "'Noto Sans JP', sans-serif"
+headingFontSizes = ["38px", "26px", "20px", "16px", "14px", "12px"]
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+
+[theme.sidebar]
+backgroundColor = "#eff6ff"
+secondaryBackgroundColor = "#fff7ed"
+textColor = "#1e3a8a"
+borderColor = "#60a5fa"
+primaryColor = "#ea580c"
+
+blueColor = "#2563eb"
+blueBackgroundColor = "#dbeafe"
+blueTextColor = "#1e40af"
+orangeColor = "#ea580c"
+orangeBackgroundColor = "#ffedd5"
+orangeTextColor = "#9a3412"
+greenColor = "#15803d"
+greenBackgroundColor = "#dcfce7"
+greenTextColor = "#166534"
+violetColor = "#7c3aed"
+violetBackgroundColor = "#ede9fe"
+violetTextColor = "#5b21b6"
+yellowColor = "#ca8a04"
+yellowBackgroundColor = "#fef9c3"
+yellowTextColor = "#854d0e"
+redColor = "#dc2626"
+redBackgroundColor = "#fee2e2"
+redTextColor = "#991b1b"
+grayColor = "#64748b"
+
+chartCategoricalColors = ["#2563eb", "#ea580c", "#16a34a", "#7c3aed", "#eab308", "#e11d48", "#0891b2", "#db2777", "#0d9488"]
+baseRadius = "12px"
+buttonRadius = "10px"
