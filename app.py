@@ -317,7 +317,13 @@ with st.sidebar:
     with st.form("add_menu_request_form", clear_on_submit=True):
         menu_name = st.text_input("メニュー名", placeholder="例：チキン南蛮定食")
         category = st.selectbox("カテゴリ", MENU_CATEGORIES)
-        price = st.number_input("価格（円）", min_value=0, value=400, step=10)
+        price = st.number_input(
+            "価格（円）",
+            min_value=0,
+            value=400,
+            step=10,
+            help="値段は普通盛りのものになります",
+        )
         description = st.text_area("ひとこと紹介", placeholder="どんなメニューか教えてください")
         add_request = st.form_submit_button("管理者へ申請", type="primary", width="stretch")
 
@@ -507,7 +513,10 @@ if st.session_state.admin_authenticated:
             st.info("削除できるメニューはありません。")
         for menu_index, menu in enumerate(menus):
             card = st.container(border=True)
-            card.write(f"**{menu['name']}** — {menu['category']} / {menu['price']:,}円")
+            card.write(
+                f"**{menu['name']}** — {menu['category']} / "
+                f"{menu['price']:,}円（普通盛り）"
+            )
             if card.button(
                 "このメニューを削除",
                 key=f"delete_menu_{menu['id']}",
@@ -565,6 +574,7 @@ def render_menu_card(menu: dict[str, Any]) -> None:
             st.subheader(menu["name"])
             render_category(menu["category"])
             st.caption(f"{menu['price']:,}円")
+            st.caption("値段は普通盛りのものになります")
             st.write(menu["description"])
         with score:
             if count:
@@ -588,6 +598,7 @@ def render_menu_card(menu: dict[str, Any]) -> None:
                         min_value=0,
                         value=int(menu["price"]),
                         step=10,
+                        help="値段は普通盛りのものになります",
                     )
                     edited_description = st.text_area(
                         "ひとこと紹介",
@@ -640,6 +651,7 @@ def render_menu_card(menu: dict[str, Any]) -> None:
                         min_value=0,
                         value=int(menu["price"]),
                         step=10,
+                        help="値段は普通盛りのものになります",
                     )
                     requested_description = st.text_area(
                         "変更後のひとこと紹介",

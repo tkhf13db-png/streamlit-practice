@@ -1,15 +1,12 @@
-site_name: Play Card Game
+site_name: 横国学食レビューサイト
 site_url: https://tkhf13db-png.github.io/streamlit-practice/
 theme:
- name: mkdocs
+  name: material
 nav:
- - Home:index.md
- - About:about.md
- - Play:play.md
-# repo_url: https://github.com/tkhf13-png/streamlit-practice
-repo_url: https://github.com/tkhf13-png/streamlit-practice
+  - ホーム: index.md
+  - サイトについて: about.md
+repo_url: https://github.com/tkhf13db-png/streamlit-practice
 extra:
- version:
-  provider: mike
-
+  version:
+    provider: mike
 
