@@ -360,26 +360,31 @@ with st.sidebar:
         st.session_state.admin_authenticated = False
 
     admin_password = get_admin_password()
-    if not admin_password:
-        st.warning("管理者パスワードが未設定です。")
-    elif st.session_state.admin_authenticated:
+    if st.session_state.admin_authenticated:
         st.success("運営モードでログイン中")
         if st.button("ログアウト", width="stretch"):
             st.session_state.admin_authenticated = False
             st.rerun()
     else:
-        entered_password = st.text_input(
-            "管理者パスワード",
-            type="password",
-            key="admin_password",
-        )
-        if st.button("ログイン", type="primary", width="stretch"):
-            if entered_password == admin_password:
+        if admin_password:
+            entered_password = st.text_input(
+                "管理者パスワード",
+                type="password",
+                key="admin_password",
+            )
+            if st.button("ログイン", type="primary", width="stretch"):
+                if entered_password == admin_password:
+                    st.session_state.admin_authenticated = True
+                    st.success("ログインしました。")
+                    st.rerun()
+                else:
+                    st.error("パスワードが違います。")
+        else:
+            st.caption("公開版では運営モードへ直接入れます。")
+            if st.button("運営モードへ入る", type="primary", width="stretch"):
                 st.session_state.admin_authenticated = True
                 st.success("ログインしました。")
                 st.rerun()
-            else:
-                st.error("パスワードが違います。")
 
 total_reviews = len(reviews)
 average_rating = (
